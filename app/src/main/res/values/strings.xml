@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicApplication</string>
+    <string name="registration">Registration</string>
+    <string name="login">Login</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searchview">SearchView</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+  <LinearLayout
+      android:id="@+id/min_15"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_baseline_timer_24"
+          app:tint="@color/black"
+          android:layout_margin="18dp"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="15 min"
+          android:textColor="@color/black"
+          android:gravity="center|start"
+          android:layout_gravity="center_vertical"/>
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/min_30"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_baseline_timer_24"
+          app:tint="@color/black"
+          android:layout_margin="18dp"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="30 min"
+          android:gravity="center|start"
+          android:textColor="@color/black"
+          android:layout_gravity="center_vertical"/>
+  </LinearLayout>
+</LinearLayout>

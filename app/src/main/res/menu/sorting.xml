@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+ <item
+     android:id="@+id/searchView"
+     android:title="@string/searchview"
+     android:icon="@drawable/ic_baseline_search_24"
+     android:iconTint="@color/white"
+     app:showAsAction="ifRoom"
+     app:iconTint="@color/white"
+     app:actionViewClass="android.widget.SearchView"/>
+
+ <item android:id="@+id/sorting"
+     android:icon="@drawable/ic_baseline_sort_24"
+     android:title="SORT"
+     app:showAsAction="always"
+     />
+</menu>
